@@ -1,0 +1,44 @@
+{
+  "name": "bolyai-bot",
+  "version": "2.0.0",
+  "description": "Bolyai Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ignore-pattern *.test.js",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "mocha test",
+    "nodemon": "nodemon --config nodemon.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bolyaiwtf/bolyai-bot.git"
+  },
+  "author": "@jozsefsallai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bolyaiwtf/bolyai-bot/issues"
+  },
+  "homepage": "https://github.com/bolyaiwtf/bolyai-bot#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "html-to-text": "^5.1.1",
+    "raven": "^2.6.4",
+    "turndown": "^5.0.3",
+    "urban.js": "^2.4.3",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chance": "^1.1.0",
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.0"
+  }
+}

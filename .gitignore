@@ -1,0 +1,9 @@
+node_modules
+.vscode
+.DS_Store
+commands/custom
+custom/*
+!custom/*/
+custom/*/*
+!custom/*/.gitkeep
+config.json

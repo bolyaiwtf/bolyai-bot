@@ -1,0 +1,11 @@
+{
+  "token": "something very secret",
+  "prefix": "~",
+  "owner": "owner id",
+  "activity": "holla",
+  "sentry": {
+    "public": null,
+    "secret": null,
+    "id": null
+  }
+}
