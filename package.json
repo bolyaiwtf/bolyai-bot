@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/bolyaiwtf/bolyai-bot#readme",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "discord.js": "^11.5.1",
     "discord.js-commando": "^0.10.0",
     "html-to-text": "^5.1.1",
